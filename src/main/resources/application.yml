@@ -1,0 +1,24 @@
+spring:
+    application:
+        name: store
+    datasource:
+        url: jdbc:mysql://localhost:3306/Bloomberg?createDatabaseIfNotExist=true
+        username: root
+        password: Hala
+    jpa:
+        properties:
+            hibernate:
+                format_sql: 'true'
+        hibernate:
+            ddl-auto: update
+        show-sql: 'true'
+
+app:
+    startTs : 1436620833000
+logging:
+    file:
+        name: logs/app.log
+    level:
+        sql: info
+        root: info
+        web: info
