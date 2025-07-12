@@ -6,7 +6,6 @@ public class ErrorRes {
     private String message;
     private LocalDateTime timestamp;
     private int status;
-
     public ErrorRes(String error, String message, LocalDateTime timestamp, int status) {
         this.error = error;
         this.message = message;

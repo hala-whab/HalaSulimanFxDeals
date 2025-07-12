@@ -1,6 +1,5 @@
 package com.HalaSuliman.Bloomberg.FXDeals.Services;
 
-import com.HalaSuliman.Bloomberg.FXDeals.Controller.FxController;
 import com.HalaSuliman.Bloomberg.FXDeals.Entites.DealDetails;
 import com.HalaSuliman.Bloomberg.FXDeals.Reposeitory.DealDetailsRepo;
 import org.slf4j.Logger;
@@ -11,11 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
-
-import java.util.Currency;
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 
 @Service
 public class DealDetailsService {
